@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -34,5 +39,15 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (min-width:600px){
+  .navbar .rightSide buttom{
+    display: none;
+  }
+
+  .hiddenLinks {
+    display: none;
   }
 }

@@ -1,0 +1,24 @@
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+  }
+  
+  li::before {
+    content: '\2022'; /* Bullet point Unicode character */
+    color: #000000; /* Customize the color of the bullet point */
+    display: inline-block;
+    width: 1em;
+    margin-left: 3em;
+    padding-top: 20px ;
+    text-align: left;
+  }
+
+  h2{
+    padding-top: 70px;
+    text-align: left;
+    margin-left: 1em;
+    font-size: 30px;
+
+  }
+
