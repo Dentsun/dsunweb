@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/dsunweb/static/css/main.03860890.css",
-    "main.js": "/dsunweb/static/js/main.a41603a1.js",
+    "main.css": "/dsunweb/static/css/main.84b0c804.css",
+    "main.js": "/dsunweb/static/js/main.145a2f3e.js",
+    "static/media/dentonsunresume2023.pdf": "/dsunweb/static/media/dentonsunresume2023.f136e941aeb43df25f20.pdf",
     "index.html": "/dsunweb/index.html",
-    "main.03860890.css.map": "/dsunweb/static/css/main.03860890.css.map",
-    "main.a41603a1.js.map": "/dsunweb/static/js/main.a41603a1.js.map"
+    "main.84b0c804.css.map": "/dsunweb/static/css/main.84b0c804.css.map",
+    "main.145a2f3e.js.map": "/dsunweb/static/js/main.145a2f3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.03860890.css",
-    "static/js/main.a41603a1.js"
+    "static/css/main.84b0c804.css",
+    "static/js/main.145a2f3e.js"
   ]
 }
