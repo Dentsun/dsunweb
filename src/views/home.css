@@ -139,7 +139,7 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-text17 {
-  color: var(--dl-color-gray-700);
+  color: black;
   align-self: center;
   text-align: center;
   margin-left: var(--dl-space-space-sixunits);
@@ -174,7 +174,7 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-text24 {
-  color: var(--dl-color-gray-700);
+  color: black;
   text-align: center;
   margin-left: var(--dl-space-space-sixunits);
   margin-right: var(--dl-space-space-sixunits);
@@ -213,7 +213,7 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-text34 {
-  color: var(--dl-color-gray-700);
+  color: black;
   align-self: center;
   text-align: center;
   margin-left: var(--dl-space-space-sixunits);
@@ -250,7 +250,7 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-text41 {
-  color: var(--dl-color-gray-700);
+  color: black;
   align-self: center;
   text-align: center;
   margin-left: var(--dl-space-space-sixunits);

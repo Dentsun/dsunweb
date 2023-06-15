@@ -10,7 +10,7 @@ const App = () => {
   return (
     <Router>
       <div>
-        <Route component={Home} exact path="/" />
+        <Route component={Home} exact path="/dsunweb" />
         <Route component={Page} exact path="/page" />
       </div>
     </Router>

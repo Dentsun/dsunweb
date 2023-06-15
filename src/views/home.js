@@ -2,21 +2,24 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
-
+import me from '../public/dentonphoto-200w.jpg'
+import hksaLogo from "../public/hksalogo-200h.jpg"
+import ubcLogo from "../public/ubclogo-200h.png"
+import whatifiLogo from "../public/whatifilogo-200h.jpg"
+import aburiLogo from "../public/aburi_logo-200h.png"
 import './home.css'
-
 const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Infamous Soupy Rook</title>
-        <meta property="og:title" content="Infamous Soupy Rook" />
+        <title>Denton Sun</title>
+        <meta property="og:title" content="Denton Sun" />
       </Helmet>
       <div className="home-testimonial-card">
         <span className="home-text">Denton Sun</span>
         <span className="home-text01">B.Sc. Computer Science at UBC</span>
         <div className="home-testimonial">
-          <img alt="image" src="/dentonphoto-200w.jpg" className="home-image" />
+          <img alt="image" src={me} className="home-image" />
         </div>
         <span className="home-text02">Software Developer</span>
         <span className="home-text03">
@@ -85,7 +88,7 @@ const Home = (props) => {
         <br></br>
       </h1>
       <div className="home-feature-card">
-        <img alt="image" src="/ubclogo-200h.png" className="home-image1" />
+        <img alt="image" src={ubcLogo} className="home-image1" />
         <span className="home-text15">UBC Sciences</span>
         <h2 className="home-text16">Undergraduate Teaching Assistant</h2>
         <span className="home-text17">
@@ -102,7 +105,7 @@ const Home = (props) => {
         </span>
       </div>
       <div className="home-feature-card1">
-        <img alt="image" src="/whatifilogo-200h.jpg" className="home-image2" />
+        <img alt="image" src={whatifiLogo} className="home-image2" />
         <span className="home-text22">Whatifi</span>
         <h2 className="home-text23">Software Developer</h2>
         <span className="home-text24">
@@ -125,7 +128,7 @@ const Home = (props) => {
         </span>
       </div>
       <div className="home-feature-card2">
-        <img alt="image" src="/hksalogo-200h.jpg" className="home-image3" />
+        <img alt="image" src={hksaLogo} className="home-image3" />
         <span className="home-text32">UBC Hong Kong Students Association</span>
         <h2 className="home-text33">Marketing Director</h2>
         <span className="home-text34">
@@ -141,7 +144,7 @@ const Home = (props) => {
         </span>
       </div>
       <div className="home-feature-card3">
-        <img alt="image" src="/aburi_logo-400h.png" className="home-image4" />
+        <img alt="image" src={aburiLogo} className="home-image4" />
         <span className="home-text39">Minami Yaletown</span>
         <h2 className="home-text40">Server Assistant</h2>
         <span className="home-text41">
