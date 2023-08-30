@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Helmet } from 'react-helmet'
-import resume from '../public/dentonsunresume2023.pdf'
+import resume from '../public/ResumeDentonSun.pdf'
 import './page.css'
 const Page = (props) => {
   return (
